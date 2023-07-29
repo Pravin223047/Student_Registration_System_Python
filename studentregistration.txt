@@ -1,0 +1,6 @@
+create database studentregistration;
+use studentregistration;
+create table login(user int auto_increment key not null, Username varchar(100), Password varchar(100));
+insert into login values(1,"username","password"); #Change the username and password as your choice for login credentials
+select * from login;
+drop database studentregistration;
